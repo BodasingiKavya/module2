@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Box</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.outer-box {
+  width: 320px;
+  margin: auto;
+  background: #c7b3e6;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #3b2a73;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+
+.inner-box {
+  background: #ffffff;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.small-text {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.big-text {
+  margin: 10px 0 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 400px) {
+  .outer-box {
+    width: 90%;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="outer-box">
+
+    <h2 class="title">Highest &<br>Average CTC</h2>
+
+    <div class="inner-box">
+      <p class="small-text">Expected Increase in Salary Potential</p>
+      <p class="big-text">60%</p>
+    </div>
+
+    <div class="inner-box">
+      <p class="small-text">Average CTC</p>
+      <p class="big-text">₹6.1 LPA</p>
+    </div>
+
+    <div class="inner-box">
+      <p class="small-text">Highest CTC</p>
+      <p class="big-text">₹36 LPA</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
