@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8fcff;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 120px repeat(5, 1fr);
+    gap: 12px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.day-header {
+    background: #ffb4d1;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.time-header { }
+
+.time {
+    background: #b9f1ff;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.cell {
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.pink {
+    background: #ffd1e8;
+}
+
+.yellow {
+    background: #fff2a8;
+}
+
+.note-box {
+    margin: 30px auto;
+    background: #b9f1ff;
+    padding: 18px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 1100px;
+    font-weight: 500;
+}
+
+    </style>
+</head>
+<body>
+    <div class="schedule-container">
+    <h1 class="title">Weekly Schedule</h1>
+
+    <div class="schedule-grid">
+
+       
+        <div class="time-header"></div>
+        <div class="day-header">Monday</div>
+        <div class="day-header">Tuesday</div>
+        <div class="day-header">Wednesday</div>
+        <div class="day-header">Thursday</div>
+        <div class="day-header">Friday</div>
+
+        
+        <div class="time">08:00</div>
+        <div class="cell pink">Math</div>
+        <div class="cell yellow">PT</div>
+        <div class="cell pink">English</div>
+        <div class="cell yellow">Drawing</div>
+        <div class="cell pink">Science</div>
+
+        
+        <div class="time">09:00</div>
+        <div class="cell pink">English</div>
+        <div class="cell yellow">Math</div>
+        <div class="cell pink">PT</div>
+        <div class="cell yellow">Science</div>
+        <div class="cell pink">Drawing</div>
+
+        
+        <div class="time">10:00</div>
+        <div class="cell pink">Science</div>
+        <div class="cell yellow">English</div>
+        <div class="cell pink">Math</div>
+        <div class="cell yellow">Library</div>
+        <div class="cell pink">PT</div>
+
+        
+        <div class="time">11:00</div>
+        <div class="cell pink">Drawing</div>
+        <div class="cell yellow">Science</div>
+        <div class="cell pink">English</div>
+        <div class="cell yellow">Math</div>
+        <div class="cell pink">Library</div>
+
+        
+        <div class="time">12:00</div>
+        <div class="cell pink">PT</div>
+        <div class="cell yellow">Drawing</div>
+        <div class="cell pink">Library</div>
+        <div class="cell yellow">English</div>
+        <div class="cell pink">Math</div>
+
+
+        <div class="time">13:00</div>
+        <div class="cell pink">Lunch Break</div>
+        <div class="cell yellow">Lunch Break</div>
+        <div class="cell pink">Lunch Break</div>
+        <div class="cell yellow">Lunch Break</div>
+        <div class="cell pink">Lunch Break</div>
+
+        <div class="time">14:00</div>
+        <div class="cell pink">English</div>
+        <div class="cell yellow">Math</div>
+        <div class="cell pink">Science</div>
+        <div class="cell yellow">PT</div>
+        <div class="cell pink">Drawing</div>
+
+        
+        <div class="time">15:00</div>
+        <div class="cell pink">Math</div>
+        <div class="cell yellow">Library</div>
+        <div class="cell pink">Drawing</div>
+        <div class="cell yellow">English</div>
+        <div class="cell pink">Science</div>
+
+        
+        <div class="time">16:00</div>
+        <div class="cell pink">Free</div>
+        <div class="cell yellow">Free</div>
+        <div class="cell pink">Free</div>
+        <div class="cell yellow">Free</div>
+        <div class="cell pink">Free</div>
+
+    </div>
+
+    <div class="note-box">Note: </div>
+</div>
+
+</body>
+</html>
