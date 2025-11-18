@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Calculator
+     </title>
+    <style>
+        body {
+    font-family: "Poppins", sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #005f4f;
+    margin-bottom: 20px;
+}
+
+
+.calculator {
+    width: 330px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+    background: white;
+}
+
+
+.display {
+    height: 55px;
+    background: #f5f7fa;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #e1e3e8;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+
+.btn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #e3e3e3;
+}
+
+
+.operator {
+    background: #000000;
+    color: white;
+}
+
+
+.equal {
+    background: #000000;
+    color: #ffffff;
+}
+
+.clear {
+    background: #ff3b30;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="calculator-wrapper">
+    <h1 class="title">Masai Calculator</h1>
+
+    <div class="calculator">
+        <div class="display"></div>
+
+        <div class="keys">
+            <div class="btn">1</div>
+            <div class="btn">2</div>
+            <div class="btn">3</div>
+            <div class="btn operator">+</div>
+
+            <div class="btn">4</div>
+            <div class="btn">5</div>
+            <div class="btn">6</div>
+            <div class="btn operator">-</div>
+
+            <div class="btn">7</div>
+            <div class="btn">8</div>
+            <div class="btn">9</div>
+            <div class="btn operator">×</div>
+
+            <div class="btn clear">C</div>
+            <div class="btn">0</div>
+            <div class="btn equal">=</div>
+            <div class="btn operator">/</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
